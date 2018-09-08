@@ -1,8 +1,12 @@
 Changelog
 =========
 
+v1.0.1
+----------------
+- Adds query filter for programming languages vocabulary. @b4oshany
 
-1.0.0
+
+v1.0.0
 ------------------
 
 - Initial release.

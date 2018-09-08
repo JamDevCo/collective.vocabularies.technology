@@ -32,7 +32,7 @@ def platform_type_factory(context):
 
 
 @provider(IVocabularyFactory)
-def programming_languages(context):
+def programming_languages(context, query=None):
     items = []
     data_filename = 'programming_languages.json'
     db_path = os.path.join(DATABASE_DIR, data_filename)
@@ -63,11 +63,17 @@ def programming_languages(context):
                 logger.info(message)
                 continue
         items.sort(key=lambda it: normalizer.normalize(it[1], locale=lang))
-        
-    items = [
-        SimpleTerm(value=it[0], title=it[1])
-        for it in items
-    ]
+    
+    if query is None:
+        items = [
+            SimpleTerm(value=it[0], title=it[1])
+            for it in items
+        ]
+    else:
+        items = [
+            SimpleTerm(value=it[0], title=it[1])
+            for it in items if query.lower() in it[1].lower()
+        ]
     return SimpleVocabulary(items)
 
 
