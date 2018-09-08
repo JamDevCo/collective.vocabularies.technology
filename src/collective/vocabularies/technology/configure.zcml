@@ -33,4 +33,16 @@
       factory=".setuphandlers.HiddenProfiles"
       name="collective.vocabularies.technology-hiddenprofiles" />
 
+  <utility
+      component=".vocab.platform_type_factory"
+      name="collective.vocabularies.technology.IPlatformTypes"
+      />
+
+  <utility
+      component=".vocab.programming_languages"
+      name="collective.vocabularies.technology.IProgammingLanguages"
+      />
+
+    
+
 </configure>

@@ -1,0 +1,6 @@
+{
+  "name": "collective.vocabularies.technology",
+  "dependencies": {
+    "list-of-programming-languages": "^2.0.2"
+  }
+}

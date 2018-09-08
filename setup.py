@@ -14,7 +14,7 @@ long_description = '\n\n'.join([
 
 setup(
     name='collective.vocabularies.technology',
-    version='1.0a1',
+    version='1.0.0',
     description="Plone vocabularies for tech terms",
     long_description=long_description,
     # Get more from https://pypi.python.org/pypi?%3Aaction=list_classifiers
@@ -22,6 +22,7 @@ setup(
         "Environment :: Web Environment",
         "Framework :: Plone",
         "Framework :: Plone :: 5.0",
+        "Framework :: Plone :: 5.1",
         "Programming Language :: Python",
         "Programming Language :: Python :: 2.7",
         "Operating System :: OS Independent",
@@ -42,6 +43,7 @@ setup(
         'Products.GenericSetup>=1.8.2',
         'setuptools',
         'z3c.jbot',
+        'collective.vocabularies'
     ],
     extras_require={
         'test': [
