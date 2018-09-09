@@ -1,9 +1,10 @@
 Changelog
 =========
 
-v1.0.2
+v1.0.2 - v1.0.3
 ----------------
 - Update the ReadMe file.
+- Update Github url.
 
 v1.0.1
 ----------------

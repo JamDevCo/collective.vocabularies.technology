@@ -14,7 +14,7 @@ long_description = '\n\n'.join([
 
 setup(
     name='collective.vocabularies.technology',
-    version='1.0.2',
+    version='1.0.3',
     description="Plone vocabularies for tech terms",
     long_description=long_description,
     # Get more from https://pypi.python.org/pypi?%3Aaction=list_classifiers

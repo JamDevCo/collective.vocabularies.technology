@@ -34,8 +34,8 @@ and then running ``bin/buildout``
 Contribute
 ----------
 
-- Issue Tracker: https://github.com/collective/collective.vocabularies.technology/issues
-- Source Code: https://github.com/collective/collective.vocabularies.technology
+- Issue Tracker: https://github.com/JamaicanDevelopers/collective.vocabularies.technology/issues
+- Source Code: https://github.com/JamaicanDevelopers/collective.vocabularies.technology
 
 
 Support
